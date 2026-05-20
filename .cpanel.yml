@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/meiticom/git.meiti.com.br/
+    - /bin/cp -R * $DEPLOYPATH
